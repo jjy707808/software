@@ -1,8 +1,1 @@
 n = input()
-
-result = bin(int(n[0]))[2:]
-
-for i in range(1, len(n)):
-    result += format(int(n[i]), '03b')
-
-print(result)
