@@ -1,0 +1,11 @@
+a=[0,0,0,0]
+b=[0,0,0,0]
+for i in range(4):
+    a[i],b[i]=list(map(int,input().split()))
+x=0
+y=0
+for i in range(4):
+    x+=b[i]-a[i]
+    if x>y:
+        y=x
+print(y)
