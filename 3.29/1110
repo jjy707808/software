@@ -1,0 +1,11 @@
+a=int(input())
+n=0
+x=a
+while True:
+    a1=(x%10)*10
+    a2=(x//10+x%10)%10
+    x=a1+a2
+    n+=1
+    if (x==a):
+       break
+print(n)
