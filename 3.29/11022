@@ -1,0 +1,11 @@
+a=int(input())
+p=[]
+x=[]
+y=[]
+for i in range(a):
+    X,Y=list(map(int,input().split()))
+    x.append(X)
+    y.append(Y)
+    p.append(X+Y)
+for i in range(a):
+    print("Case #{}: {} + {} = {}".format(i+1,x[i],y[i],x[i]+y[i]))
